@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	var chance = Math.floor(Math.random() * 25);
+	console.log(chance);
 	if(chance == 1) {
 		cenafy();
 	}
